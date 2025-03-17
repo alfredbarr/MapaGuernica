@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0859413af14b44dbff25fa0fe9f02108 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0859413af14b44dbff25fa0fe9f02108" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0859413af14b44dbff25fa0fe9f02108 = L.map(
+                "map_0859413af14b44dbff25fa0fe9f02108",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d01da6c77aeccf1b1bb46029ee1392e0 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0859413af14b44dbff25fa0fe9f02108);
+        
+    
+            var marker_73d858a4a1f2d2ac8223aeb29cd87ae1 = L.marker(
+                [48.8566, 2.3522],
+                {}
+            ).addTo(map_0859413af14b44dbff25fa0fe9f02108);
+        
+    
+            var icon_a833d3cba98a279381115bf04ea63972 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_73d858a4a1f2d2ac8223aeb29cd87ae1.setIcon(icon_a833d3cba98a279381115bf04ea63972);
+        
+    
+        var popup_b5befa361adbcccd6d5d251b1902b3a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_567f1004290884214a9939933dceaa8f = $(`<div id="html_567f1004290884214a9939933dceaa8f" style="width: 100.0%; height: 100.0%;"><b>París, Francia (Exposición Internacional) (1937)</b><br>Primera exhibición en el Pabellón de la República Española.</div>`)[0];
+            popup_b5befa361adbcccd6d5d251b1902b3a0.setContent(html_567f1004290884214a9939933dceaa8f);
+        
+
+        marker_73d858a4a1f2d2ac8223aeb29cd87ae1.bindPopup(popup_b5befa361adbcccd6d5d251b1902b3a0)
+        ;
+
+        
+    
+    
+            marker_73d858a4a1f2d2ac8223aeb29cd87ae1.bindTooltip(
+                `<div>
+                     París, Francia (Exposición Internacional)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f63594fa446f7125d8ae3124ff27eb62 = L.marker(
+                [59.9139, 10.7522],
+                {}
+            ).addTo(map_0859413af14b44dbff25fa0fe9f02108);
+        
+    
+            var icon_d2dfef01a46c92b91fcf54381f3538eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f63594fa446f7125d8ae3124ff27eb62.setIcon(icon_d2dfef01a46c92b91fcf54381f3538eb);
+        
+    
+        var popup_07d3c4729da32cc00d78fb139ba970ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b324e3d5c342fa40b66f212d92b9e671 = $(`<div id="html_b324e3d5c342fa40b66f212d92b9e671" style="width: 100.0%; height: 100.0%;"><b>Oslo, Noruega (Gira Escandinava) (1938)</b><br>Exhibición itinerante en apoyo a los refugiados de la Guerra Civil Española.</div>`)[0];
+            popup_07d3c4729da32cc00d78fb139ba970ea.setContent(html_b324e3d5c342fa40b66f212d92b9e671);
+        
+
+        marker_f63594fa446f7125d8ae3124ff27eb62.bindPopup(popup_07d3c4729da32cc00d78fb139ba970ea)
+        ;
+
+        
+    
+    
+            marker_f63594fa446f7125d8ae3124ff27eb62.bindTooltip(
+                `<div>
+                     Oslo, Noruega (Gira Escandinava)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_049ab6b32c1266418bfd48e763f17f7d = L.marker(
+                [55.6761, 12.5683],
+                {}
+            ).addTo(map_0859413af14b44dbff25fa0fe9f02108);
+        
+    
+            var icon_c915b69cf86e831188374f1479a11efe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_049ab6b32c1266418bfd48e763f17f7d.setIcon(icon_c915b69cf86e831188374f1479a11efe);
+        
+    
+        var popup_da68cf4c22822f014d48cbf3df01909d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_daf2c38c422a545c73867a0749ebf75d = $(`<div id="html_daf2c38c422a545c73867a0749ebf75d" style="width: 100.0%; height: 100.0%;"><b>Copenhague, Dinamarca (Gira Escandinava) (1938)</b><br>Parte de la gira de arte moderno español.</div>`)[0];
+            popup_da68cf4c22822f014d48cbf3df01909d.setContent(html_daf2c38c422a545c73867a0749ebf75d);
+        
+
+        marker_049ab6b32c1266418bfd48e763f17f7d.bindPopup(popup_da68cf4c22822f014d48cbf3df01909d)
+        ;
+
+        
+    
+    
+            marker_049ab6b32c1266418bfd48e763f17f7d.bindTooltip(
+                `<div>
+                     Copenhague, Dinamarca (Gira Escandinava)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_56a4d72544734db15162c058c7184466 = L.marker(
+                [59.3293, 18.0686],
+                {}
+            ).addTo(map_0859413af14b44dbff25fa0fe9f02108);
+        
+    
+            var icon_e90624b90c1fbe5aba99c8994a128b40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_56a4d72544734db15162c058c7184466.setIcon(icon_e90624b90c1fbe5aba99c8994a128b40);
+        
+    
+        var popup_0874b88d19b950cbf3b42826009f0846 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87079047fbde59404af9dd3295eb7bc4 = $(`<div id="html_87079047fbde59404af9dd3295eb7bc4" style="width: 100.0%; height: 100.0%;"><b>Estocolmo, Suecia (Gira Escandinava) (1938)</b><br>Recibida con gran impacto político en la región.</div>`)[0];
+            popup_0874b88d19b950cbf3b42826009f0846.setContent(html_87079047fbde59404af9dd3295eb7bc4);
+        
+
+        marker_56a4d72544734db15162c058c7184466.bindPopup(popup_0874b88d19b950cbf3b42826009f0846)
+        ;
+
+        
+    
+    
+            marker_56a4d72544734db15162c058c7184466.bindTooltip(
+                `<div>
+                     Estocolmo, Suecia (Gira Escandinava)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2daf4fa36dcb30890aaeb194ce799e17 = L.marker(
+                [51.5074, -0.1278],
+                {}
+            ).addTo(map_0859413af14b44dbff25fa0fe9f02108);
+        
+    
+            var icon_7bd199c57942f595b6d8ccf9ce742b9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2daf4fa36dcb30890aaeb194ce799e17.setIcon(icon_7bd199c57942f595b6d8ccf9ce742b9f);
+        
+    
+        var popup_2838eb205ae11886c8647be53a5b9224 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71e57bcd5451437c549b67fefc85ba66 = $(`<div id="html_71e57bcd5451437c549b67fefc85ba66" style="width: 100.0%; height: 100.0%;"><b>Londres, Reino Unido (1938)</b><br>Exhibida en Whitechapel Art Gallery para sensibilizar sobre la guerra.</div>`)[0];
+            popup_2838eb205ae11886c8647be53a5b9224.setContent(html_71e57bcd5451437c549b67fefc85ba66);
+        
+
+        marker_2daf4fa36dcb30890aaeb194ce799e17.bindPopup(popup_2838eb205ae11886c8647be53a5b9224)
+        ;
+
+        
+    
+    
+            marker_2daf4fa36dcb30890aaeb194ce799e17.bindTooltip(
+                `<div>
+                     Londres, Reino Unido
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_928dc2ce3db435730cf5167b55fe54ef = L.marker(
+                [53.4839, -2.2446],
+                {}
+            ).addTo(map_0859413af14b44dbff25fa0fe9f02108);
+        
+    
+            var icon_ad5a4aefc417cbff22fefcbca08ab6f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_928dc2ce3db435730cf5167b55fe54ef.setIcon(icon_ad5a4aefc417cbff22fefcbca08ab6f6);
+        
+    
+        var popup_c0ebac72d3fb9199a674b67e98600128 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26c98b7c8a5d5ca704736767a2d72c23 = $(`<div id="html_26c98b7c8a5d5ca704736767a2d72c23" style="width: 100.0%; height: 100.0%;"><b>Mánchester, Reino Unido (1939)</b><br>Parte de la campaña de ayuda humanitaria para España.</div>`)[0];
+            popup_c0ebac72d3fb9199a674b67e98600128.setContent(html_26c98b7c8a5d5ca704736767a2d72c23);
+        
+
+        marker_928dc2ce3db435730cf5167b55fe54ef.bindPopup(popup_c0ebac72d3fb9199a674b67e98600128)
+        ;
+
+        
+    
+    
+            marker_928dc2ce3db435730cf5167b55fe54ef.bindTooltip(
+                `<div>
+                     Mánchester, Reino Unido
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_222e6d88b57a23fb638abbc86185b3c0 = L.marker(
+                [40.7128, -74.006],
+                {}
+            ).addTo(map_0859413af14b44dbff25fa0fe9f02108);
+        
+    
+            var icon_db2724a694ad1b99a84c111fbefb8222 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_222e6d88b57a23fb638abbc86185b3c0.setIcon(icon_db2724a694ad1b99a84c111fbefb8222);
+        
+    
+        var popup_9706f1d9b0a7c775b576516b722bd85a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_505954a405a5a5a7521b87111da2a1f5 = $(`<div id="html_505954a405a5a5a7521b87111da2a1f5" style="width: 100.0%; height: 100.0%;"><b>Nueva York, EE.UU. (Valentine Gallery y MoMA) (1939-1981)</b><br>Custodiada en el MoMA hasta su devolución a España.</div>`)[0];
+            popup_9706f1d9b0a7c775b576516b722bd85a.setContent(html_505954a405a5a5a7521b87111da2a1f5);
+        
+
+        marker_222e6d88b57a23fb638abbc86185b3c0.bindPopup(popup_9706f1d9b0a7c775b576516b722bd85a)
+        ;
+
+        
+    
+    
+            marker_222e6d88b57a23fb638abbc86185b3c0.bindTooltip(
+                `<div>
+                     Nueva York, EE.UU. (Valentine Gallery y MoMA)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0eed20ae363a00936079ce506a383d70 = L.marker(
+                [37.7749, -122.4194],
+                {}
+            ).addTo(map_0859413af14b44dbff25fa0fe9f02108);
+        
+    
+            var icon_2a4f9e334d2553ba648d44833035aacf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0eed20ae363a00936079ce506a383d70.setIcon(icon_2a4f9e334d2553ba648d44833035aacf);
+        
+    
+        var popup_ba79ccbc3f1a408829a6f7d39a31e8d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_903d1da75089a58025a202c5a62589ec = $(`<div id="html_903d1da75089a58025a202c5a62589ec" style="width: 100.0%; height: 100.0%;"><b>San Francisco, EE.UU. (1939)</b><br>Parte de la gira de la Spanish Refugee Relief Campaign.</div>`)[0];
+            popup_ba79ccbc3f1a408829a6f7d39a31e8d6.setContent(html_903d1da75089a58025a202c5a62589ec);
+        
+
+        marker_0eed20ae363a00936079ce506a383d70.bindPopup(popup_ba79ccbc3f1a408829a6f7d39a31e8d6)
+        ;
+
+        
+    
+    
+            marker_0eed20ae363a00936079ce506a383d70.bindTooltip(
+                `<div>
+                     San Francisco, EE.UU.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_992b8d8ed3456a5f22e5ecf4ac24b9e3 = L.marker(
+                [41.8781, -87.6298],
+                {}
+            ).addTo(map_0859413af14b44dbff25fa0fe9f02108);
+        
+    
+            var icon_88d7149dfd7ac0661f769c8074fda662 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_992b8d8ed3456a5f22e5ecf4ac24b9e3.setIcon(icon_88d7149dfd7ac0661f769c8074fda662);
+        
+    
+        var popup_e4d19248de6dd4c9fcdc1b586e207f98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb1d90cf98fe85af1d56298e8c7903c0 = $(`<div id="html_fb1d90cf98fe85af1d56298e8c7903c0" style="width: 100.0%; height: 100.0%;"><b>Chicago, EE.UU. (Art Institute) (1940)</b><br>Incluida en la retrospectiva de Picasso.</div>`)[0];
+            popup_e4d19248de6dd4c9fcdc1b586e207f98.setContent(html_fb1d90cf98fe85af1d56298e8c7903c0);
+        
+
+        marker_992b8d8ed3456a5f22e5ecf4ac24b9e3.bindPopup(popup_e4d19248de6dd4c9fcdc1b586e207f98)
+        ;
+
+        
+    
+    
+            marker_992b8d8ed3456a5f22e5ecf4ac24b9e3.bindTooltip(
+                `<div>
+                     Chicago, EE.UU. (Art Institute)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42057579c0043f4db2ea5b66a869ad1f = L.marker(
+                [42.3736, -71.1097],
+                {}
+            ).addTo(map_0859413af14b44dbff25fa0fe9f02108);
+        
+    
+            var icon_ca2c3212dd7b9deb123a90b53c046c53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_42057579c0043f4db2ea5b66a869ad1f.setIcon(icon_ca2c3212dd7b9deb123a90b53c046c53);
+        
+    
+        var popup_08712d82bbe62e52e3a7ab894d0d5e43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba04b256bb6fb8239354ab05ee724ff8 = $(`<div id="html_ba04b256bb6fb8239354ab05ee724ff8" style="width: 100.0%; height: 100.0%;"><b>Cambridge, EE.UU. (Harvard) (1941)</b><br>Exhibida en el Fogg Art Museum en un contexto educativo.</div>`)[0];
+            popup_08712d82bbe62e52e3a7ab894d0d5e43.setContent(html_ba04b256bb6fb8239354ab05ee724ff8);
+        
+
+        marker_42057579c0043f4db2ea5b66a869ad1f.bindPopup(popup_08712d82bbe62e52e3a7ab894d0d5e43)
+        ;
+
+        
+    
+    
+            marker_42057579c0043f4db2ea5b66a869ad1f.bindTooltip(
+                `<div>
+                     Cambridge, EE.UU. (Harvard)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b1e02513a16de2f9d4ef3eb2fc4485cc = L.marker(
+                [45.4642, 9.19],
+                {}
+            ).addTo(map_0859413af14b44dbff25fa0fe9f02108);
+        
+    
+            var icon_cbd586823eaa597ab902d2030ee21037 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b1e02513a16de2f9d4ef3eb2fc4485cc.setIcon(icon_cbd586823eaa597ab902d2030ee21037);
+        
+    
+        var popup_a5e23aed22dd6ebb55cdfb51359bc05b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_303fc3e6b67ee814c44e93584cfd3365 = $(`<div id="html_303fc3e6b67ee814c44e93584cfd3365" style="width: 100.0%; height: 100.0%;"><b>Milán, Italia (1953)</b><br>Exhibida en el Palazzo Reale dentro de una retrospectiva de Picasso.</div>`)[0];
+            popup_a5e23aed22dd6ebb55cdfb51359bc05b.setContent(html_303fc3e6b67ee814c44e93584cfd3365);
+        
+
+        marker_b1e02513a16de2f9d4ef3eb2fc4485cc.bindPopup(popup_a5e23aed22dd6ebb55cdfb51359bc05b)
+        ;
+
+        
+    
+    
+            marker_b1e02513a16de2f9d4ef3eb2fc4485cc.bindTooltip(
+                `<div>
+                     Milán, Italia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_92d7bb8db628b8a2f542997eabfc08fd = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_0859413af14b44dbff25fa0fe9f02108);
+        
+    
+            var icon_dc3d53996dd0373a7cf54786320efeb6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_92d7bb8db628b8a2f542997eabfc08fd.setIcon(icon_dc3d53996dd0373a7cf54786320efeb6);
+        
+    
+        var popup_9eed1592f92665a8a542788897e4838e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e756f9314fcf6ad75c8d2499fd7ac04 = $(`<div id="html_4e756f9314fcf6ad75c8d2499fd7ac04" style="width: 100.0%; height: 100.0%;"><b>São Paulo, Brasil (1953)</b><br>Presentada en la II Bienal de São Paulo.</div>`)[0];
+            popup_9eed1592f92665a8a542788897e4838e.setContent(html_4e756f9314fcf6ad75c8d2499fd7ac04);
+        
+
+        marker_92d7bb8db628b8a2f542997eabfc08fd.bindPopup(popup_9eed1592f92665a8a542788897e4838e)
+        ;
+
+        
+    
+    
+            marker_92d7bb8db628b8a2f542997eabfc08fd.bindTooltip(
+                `<div>
+                     São Paulo, Brasil
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1afc47b5cccd8df43edd8824647db2d = L.marker(
+                [48.1351, 11.582],
+                {}
+            ).addTo(map_0859413af14b44dbff25fa0fe9f02108);
+        
+    
+            var icon_9ddb443262a4d63ad18d9d1530c4374c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d1afc47b5cccd8df43edd8824647db2d.setIcon(icon_9ddb443262a4d63ad18d9d1530c4374c);
+        
+    
+        var popup_f3a16593cfa332f5d80cebbad0f40dca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d908d02969bf28d084a32e91a7d0989 = $(`<div id="html_1d908d02969bf28d084a32e91a7d0989" style="width: 100.0%; height: 100.0%;"><b>Múnich, Alemania (1955)</b><br>Inicio de la gira europea tras la retrospectiva de París.</div>`)[0];
+            popup_f3a16593cfa332f5d80cebbad0f40dca.setContent(html_1d908d02969bf28d084a32e91a7d0989);
+        
+
+        marker_d1afc47b5cccd8df43edd8824647db2d.bindPopup(popup_f3a16593cfa332f5d80cebbad0f40dca)
+        ;
+
+        
+    
+    
+            marker_d1afc47b5cccd8df43edd8824647db2d.bindTooltip(
+                `<div>
+                     Múnich, Alemania
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_852384a6e38a45a5f2386c9d5368681e = L.marker(
+                [40.4168, -3.7038],
+                {}
+            ).addTo(map_0859413af14b44dbff25fa0fe9f02108);
+        
+    
+            var icon_254cf4221e110eb60c33d5cf4d9c6871 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_852384a6e38a45a5f2386c9d5368681e.setIcon(icon_254cf4221e110eb60c33d5cf4d9c6871);
+        
+    
+        var popup_b23a41b4d315382d251f03c82b7c6a36 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e037eac3634e96f23c5d4836bbbfc471 = $(`<div id="html_e037eac3634e96f23c5d4836bbbfc471" style="width: 100.0%; height: 100.0%;"><b>Madrid, España (Casón del Buen Retiro) (1981)</b><br>Regreso a España y exhibición bajo fuerte seguridad.</div>`)[0];
+            popup_b23a41b4d315382d251f03c82b7c6a36.setContent(html_e037eac3634e96f23c5d4836bbbfc471);
+        
+
+        marker_852384a6e38a45a5f2386c9d5368681e.bindPopup(popup_b23a41b4d315382d251f03c82b7c6a36)
+        ;
+
+        
+    
+    
+            marker_852384a6e38a45a5f2386c9d5368681e.bindTooltip(
+                `<div>
+                     Madrid, España (Casón del Buen Retiro)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b2c9f884c4384d62ebe226e418aeb60 = L.marker(
+                [40.4089, -3.6946],
+                {}
+            ).addTo(map_0859413af14b44dbff25fa0fe9f02108);
+        
+    
+            var icon_41941b3b03849c08d69bb2489912ab92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5b2c9f884c4384d62ebe226e418aeb60.setIcon(icon_41941b3b03849c08d69bb2489912ab92);
+        
+    
+        var popup_1aa2cebf88334285c59d44f48eea7488 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09096cae35ad8a98423773f6936fe22b = $(`<div id="html_09096cae35ad8a98423773f6936fe22b" style="width: 100.0%; height: 100.0%;"><b>Madrid, España (Museo Reina Sofía) (1992)</b><br>Ubicación actual del Guernica.</div>`)[0];
+            popup_1aa2cebf88334285c59d44f48eea7488.setContent(html_09096cae35ad8a98423773f6936fe22b);
+        
+
+        marker_5b2c9f884c4384d62ebe226e418aeb60.bindPopup(popup_1aa2cebf88334285c59d44f48eea7488)
+        ;
+
+        
+    
+    
+            marker_5b2c9f884c4384d62ebe226e418aeb60.bindTooltip(
+                `<div>
+                     Madrid, España (Museo Reina Sofía)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
