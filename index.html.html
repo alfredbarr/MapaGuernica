@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2ffe8dd26c5bf03c9141b164164a9ffa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2ffe8dd26c5bf03c9141b164164a9ffa" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2ffe8dd26c5bf03c9141b164164a9ffa = L.map(
+                "map_2ffe8dd26c5bf03c9141b164164a9ffa",
+                {
+                    center: [40.0, -10.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f0fcd35448c36c22a9c1e90210914a6a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2ffe8dd26c5bf03c9141b164164a9ffa);
+        
+    
+            var marker_5423f20f4129ce771f34b31585cee371 = L.marker(
+                [48.8566, 2.3522],
+                {}
+            ).addTo(map_2ffe8dd26c5bf03c9141b164164a9ffa);
+        
+    
+            var icon_2c430f73a6a02589f63a3edc8912145a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5423f20f4129ce771f34b31585cee371.setIcon(icon_2c430f73a6a02589f63a3edc8912145a);
+        
+    
+        var popup_1402d63911372530492322765e1a8bfc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ada7223553937265ea40bb919f026bf = $(`<div id="html_4ada7223553937265ea40bb919f026bf" style="width: 100.0%; height: 100.0%;">Exposición Internacional de París (1937)</div>`)[0];
+            popup_1402d63911372530492322765e1a8bfc.setContent(html_4ada7223553937265ea40bb919f026bf);
+        
+
+        marker_5423f20f4129ce771f34b31585cee371.bindPopup(popup_1402d63911372530492322765e1a8bfc)
+        ;
+
+        
+    
+    
+            var marker_e6c0fc1a203845a20c92c4e8315be60d = L.marker(
+                [51.5074, -0.1278],
+                {}
+            ).addTo(map_2ffe8dd26c5bf03c9141b164164a9ffa);
+        
+    
+            var icon_1ca94ea28cb1ed236bbf77e823a87dc2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e6c0fc1a203845a20c92c4e8315be60d.setIcon(icon_1ca94ea28cb1ed236bbf77e823a87dc2);
+        
+    
+        var popup_d861962948d7a3ee71b17c5200f4ff8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3b9cac09e00869df500181c9b2e35cd = $(`<div id="html_c3b9cac09e00869df500181c9b2e35cd" style="width: 100.0%; height: 100.0%;">New Burlington Galleries, Londres (1938)</div>`)[0];
+            popup_d861962948d7a3ee71b17c5200f4ff8d.setContent(html_c3b9cac09e00869df500181c9b2e35cd);
+        
+
+        marker_e6c0fc1a203845a20c92c4e8315be60d.bindPopup(popup_d861962948d7a3ee71b17c5200f4ff8d)
+        ;
+
+        
+    
+    
+            var marker_fec058e75866fb1b92068fb4fba2f72e = L.marker(
+                [40.7614, -73.9776],
+                {}
+            ).addTo(map_2ffe8dd26c5bf03c9141b164164a9ffa);
+        
+    
+            var icon_7432e3353ccc98866bcf4296f98b7519 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fec058e75866fb1b92068fb4fba2f72e.setIcon(icon_7432e3353ccc98866bcf4296f98b7519);
+        
+    
+        var popup_eb764bc25343eeeced7cc014e05b0747 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15c81106b0171aab5707b49d19546405 = $(`<div id="html_15c81106b0171aab5707b49d19546405" style="width: 100.0%; height: 100.0%;">Museum of Modern Art (MoMA), Nueva York (1939-1981)</div>`)[0];
+            popup_eb764bc25343eeeced7cc014e05b0747.setContent(html_15c81106b0171aab5707b49d19546405);
+        
+
+        marker_fec058e75866fb1b92068fb4fba2f72e.bindPopup(popup_eb764bc25343eeeced7cc014e05b0747)
+        ;
+
+        
+    
+    
+            var marker_a3501ae5290fa2b45237c0a4892922ca = L.marker(
+                [41.8796, -87.6237],
+                {}
+            ).addTo(map_2ffe8dd26c5bf03c9141b164164a9ffa);
+        
+    
+            var icon_3d9382860fcc62cb077bb267065dea65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a3501ae5290fa2b45237c0a4892922ca.setIcon(icon_3d9382860fcc62cb077bb267065dea65);
+        
+    
+        var popup_9cf9bf1965eb646e56b86a78c2c38029 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ef6ad1e20083e21a19c2f18d13241df = $(`<div id="html_0ef6ad1e20083e21a19c2f18d13241df" style="width: 100.0%; height: 100.0%;">Art Institute of Chicago (1940)</div>`)[0];
+            popup_9cf9bf1965eb646e56b86a78c2c38029.setContent(html_0ef6ad1e20083e21a19c2f18d13241df);
+        
+
+        marker_a3501ae5290fa2b45237c0a4892922ca.bindPopup(popup_9cf9bf1965eb646e56b86a78c2c38029)
+        ;
+
+        
+    
+    
+            var marker_3a254512b7bcd5d2094b922a729062be = L.marker(
+                [42.3736, -71.1097],
+                {}
+            ).addTo(map_2ffe8dd26c5bf03c9141b164164a9ffa);
+        
+    
+            var icon_5792acc341a8136c232ecaf1112f31b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3a254512b7bcd5d2094b922a729062be.setIcon(icon_5792acc341a8136c232ecaf1112f31b8);
+        
+    
+        var popup_2c24c0ed4e67a8c39db6be924ff25e29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_738235cabaa384c04ccd8eb41781b202 = $(`<div id="html_738235cabaa384c04ccd8eb41781b202" style="width: 100.0%; height: 100.0%;">Fogg Art Museum, Harvard, Cambridge (1941)</div>`)[0];
+            popup_2c24c0ed4e67a8c39db6be924ff25e29.setContent(html_738235cabaa384c04ccd8eb41781b202);
+        
+
+        marker_3a254512b7bcd5d2094b922a729062be.bindPopup(popup_2c24c0ed4e67a8c39db6be924ff25e29)
+        ;
+
+        
+    
+    
+            var marker_8fa5f0c9445324079e591d580be33dcd = L.marker(
+                [45.4642, 9.19],
+                {}
+            ).addTo(map_2ffe8dd26c5bf03c9141b164164a9ffa);
+        
+    
+            var icon_37c4e71e4006f9337d1e35ce9b92cc3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8fa5f0c9445324079e591d580be33dcd.setIcon(icon_37c4e71e4006f9337d1e35ce9b92cc3b);
+        
+    
+        var popup_9be3b3eb77bf16806fd5999331a3b642 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ded57a013b8546d62259a87d00b70a46 = $(`<div id="html_ded57a013b8546d62259a87d00b70a46" style="width: 100.0%; height: 100.0%;">Palazzo Reale, Milán (1953)</div>`)[0];
+            popup_9be3b3eb77bf16806fd5999331a3b642.setContent(html_ded57a013b8546d62259a87d00b70a46);
+        
+
+        marker_8fa5f0c9445324079e591d580be33dcd.bindPopup(popup_9be3b3eb77bf16806fd5999331a3b642)
+        ;
+
+        
+    
+    
+            var marker_90c658171e36a0e2a3e7f17b2bdbd15a = L.marker(
+                [52.3676, 4.9041],
+                {}
+            ).addTo(map_2ffe8dd26c5bf03c9141b164164a9ffa);
+        
+    
+            var icon_87946262df0be3a0fdee384ecfbb5cd2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_90c658171e36a0e2a3e7f17b2bdbd15a.setIcon(icon_87946262df0be3a0fdee384ecfbb5cd2);
+        
+    
+        var popup_cdeec8550c8dffd4cbe15ccf0b546424 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6205b6643c9fd0c85ef04ddbf5e71c8 = $(`<div id="html_f6205b6643c9fd0c85ef04ddbf5e71c8" style="width: 100.0%; height: 100.0%;">Stedelijk Museum, Ámsterdam (1956)</div>`)[0];
+            popup_cdeec8550c8dffd4cbe15ccf0b546424.setContent(html_f6205b6643c9fd0c85ef04ddbf5e71c8);
+        
+
+        marker_90c658171e36a0e2a3e7f17b2bdbd15a.bindPopup(popup_cdeec8550c8dffd4cbe15ccf0b546424)
+        ;
+
+        
+    
+    
+            var marker_2953863033812dcbb4ef0f10ca2e697b = L.marker(
+                [59.3293, 18.0686],
+                {}
+            ).addTo(map_2ffe8dd26c5bf03c9141b164164a9ffa);
+        
+    
+            var icon_516c603d8e95431b89b0e636231fd2bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2953863033812dcbb4ef0f10ca2e697b.setIcon(icon_516c603d8e95431b89b0e636231fd2bc);
+        
+    
+        var popup_c4563e3e15ed043143351650d961087c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0782ebd09d9572d890ed9e3954ed715 = $(`<div id="html_a0782ebd09d9572d890ed9e3954ed715" style="width: 100.0%; height: 100.0%;">Liljevalchs Konsthall, Estocolmo (1956)</div>`)[0];
+            popup_c4563e3e15ed043143351650d961087c.setContent(html_a0782ebd09d9572d890ed9e3954ed715);
+        
+
+        marker_2953863033812dcbb4ef0f10ca2e697b.bindPopup(popup_c4563e3e15ed043143351650d961087c)
+        ;
+
+        
+    
+    
+            var marker_a14747037a614557e1b1d1fb78383304 = L.marker(
+                [50.9375, 6.9603],
+                {}
+            ).addTo(map_2ffe8dd26c5bf03c9141b164164a9ffa);
+        
+    
+            var icon_7f107145119725c165fbb78695c87240 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a14747037a614557e1b1d1fb78383304.setIcon(icon_7f107145119725c165fbb78695c87240);
+        
+    
+        var popup_358a9cea68014f047b0a33f388b8b5ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04993ceaf13b1f98cf076466f58cde5a = $(`<div id="html_04993ceaf13b1f98cf076466f58cde5a" style="width: 100.0%; height: 100.0%;">Stadt Köln-Rheinisches Bildarchiv, Colonia (1956)</div>`)[0];
+            popup_358a9cea68014f047b0a33f388b8b5ef.setContent(html_04993ceaf13b1f98cf076466f58cde5a);
+        
+
+        marker_a14747037a614557e1b1d1fb78383304.bindPopup(popup_358a9cea68014f047b0a33f388b8b5ef)
+        ;
+
+        
+    
+    
+            var marker_87e78a193344f99de507eabc4c0c69de = L.marker(
+                [37.7857, -122.4011],
+                {}
+            ).addTo(map_2ffe8dd26c5bf03c9141b164164a9ffa);
+        
+    
+            var icon_00f8d01e489a5bf19561f85befc3975f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_87e78a193344f99de507eabc4c0c69de.setIcon(icon_00f8d01e489a5bf19561f85befc3975f);
+        
+    
+        var popup_25ea0806de1121b081bb4930bd8d891f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_878a4f988b01e0bab613be818ae9f0ef = $(`<div id="html_878a4f988b01e0bab613be818ae9f0ef" style="width: 100.0%; height: 100.0%;">San Francisco Museum of Modern Art (1957)</div>`)[0];
+            popup_25ea0806de1121b081bb4930bd8d891f.setContent(html_878a4f988b01e0bab613be818ae9f0ef);
+        
+
+        marker_87e78a193344f99de507eabc4c0c69de.bindPopup(popup_25ea0806de1121b081bb4930bd8d891f)
+        ;
+
+        
+    
+    
+            var marker_d36dcf31bb002c4a1414727cfb4b45e9 = L.marker(
+                [40.4138, -3.6921],
+                {}
+            ).addTo(map_2ffe8dd26c5bf03c9141b164164a9ffa);
+        
+    
+            var icon_64a5e557d19a8496cd020273c34bf794 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d36dcf31bb002c4a1414727cfb4b45e9.setIcon(icon_64a5e557d19a8496cd020273c34bf794);
+        
+    
+        var popup_41885587d93f9af9f8878d50a34cf4aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_632059c77dce217103e382f9d509d2bc = $(`<div id="html_632059c77dce217103e382f9d509d2bc" style="width: 100.0%; height: 100.0%;">Museo del Prado, Madrid (1981-1992)</div>`)[0];
+            popup_41885587d93f9af9f8878d50a34cf4aa.setContent(html_632059c77dce217103e382f9d509d2bc);
+        
+
+        marker_d36dcf31bb002c4a1414727cfb4b45e9.bindPopup(popup_41885587d93f9af9f8878d50a34cf4aa)
+        ;
+
+        
+    
+    
+            var marker_e62b557b3047add3e4c6a9f5912bf058 = L.marker(
+                [40.4088, -3.6941],
+                {}
+            ).addTo(map_2ffe8dd26c5bf03c9141b164164a9ffa);
+        
+    
+            var icon_3911631863166665cc069dec0335f466 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e62b557b3047add3e4c6a9f5912bf058.setIcon(icon_3911631863166665cc069dec0335f466);
+        
+    
+        var popup_78ac3375e743e8ad9e63a3dec9e592ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e7a045963a9c7bd1e93d5f39e00a4c2 = $(`<div id="html_6e7a045963a9c7bd1e93d5f39e00a4c2" style="width: 100.0%; height: 100.0%;">Museo Reina Sofía, Madrid (1992 - Actualidad)</div>`)[0];
+            popup_78ac3375e743e8ad9e63a3dec9e592ac.setContent(html_6e7a045963a9c7bd1e93d5f39e00a4c2);
+        
+
+        marker_e62b557b3047add3e4c6a9f5912bf058.bindPopup(popup_78ac3375e743e8ad9e63a3dec9e592ac)
+        ;
+
+        
+    
+</script>
+</html>
